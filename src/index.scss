@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body bg-slate-900 text-white px-5 leading-relaxed;
+  }
+  section {
+    margin-top: 6rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-medium;
+  }
+}
+
+@layer components {
+  .page-container {
+    max-width: 1075px;
+    @apply mx-auto;
+  }
+
+  section > h2,
+  section > h5 {
+    text-align: center;
+    color: var(--color-light);
+  }
+
+  section > h5 {
+    font-size: 0.83rem;
+  }
+
+  section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+:root {
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// ::-webkit-scrollbar {
+//   background-color: gray;
+//   height: 88px;
+// }

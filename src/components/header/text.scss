@@ -1,0 +1,36 @@
+svg text {
+  fill: none;
+  stroke: white;
+  font-size: 90px;
+  font-weight: 600;
+  stroke-width: 3;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: animationEffect 2s linear forwards;
+}
+
+@keyframes animationEffect {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+// svg text {
+//   fill: none;
+//   stroke: #44ca67;
+//   stroke-width: 6px;
+//   stroke-dasharray: 600px;
+//   stroke-dashoffset: 600px;
+//   stroke-linecap: round;
+//   stroke-linejoin: round;
+//   animation: stroke 5s linear forwards;
+// }
+
+// @keyframes stroke {
+//   100% {
+//     stroke-dashoffset: 0;
+//   }
+// }
+
