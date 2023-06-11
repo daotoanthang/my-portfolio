@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
+import facebook from "../../assets/facebook.png";
 
 const socialsLink = [
   {
@@ -12,7 +13,7 @@ const socialsLink = [
   {
     id: 2,
     name: "Facebook",
-    path: "https://napthedev.com/facebook.png",
+    path: "https://i.ibb.co/Gv3fxcc/facebook.png",
     link: "https://www.facebook.com/Profile.D2T",
     alt: "daotoanthangfacebook",
   },
